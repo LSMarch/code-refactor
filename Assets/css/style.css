@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +21,13 @@ body {
     font-size: 48px;
 }
 
+/* .seo is aready a .class, doesn't need nesting 
+    TO DO: un-nest*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* can this be consolidated??  */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* big img, can give img id to specify */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +63,8 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* .floats referencing images within .search .online .social
+    TO DO: consolidate and move down*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,11 +75,13 @@ p {
     margin-left: 25px;
 }
 
+/* moved down for flow */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 
 .benefits {
     margin-right: 20px;
@@ -86,6 +94,8 @@ p {
     background-color: #2589bd;
 }
 
+/* all within .benefits and the same
+    TO DO: consolidate */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +111,8 @@ p {
     color: #ffffff;
 }
 
+/* No other h3 tags, don't need nesting
+    TO DO: consolidate */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +128,8 @@ p {
     text-align: center;
 }
 
+/* All the same
+    TO DO: consolidate */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,6 +147,16 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*Moved .content for flow, will remove comment
+
+.content { 
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+ .search .online .social all the same, all within .content 
+    TO DO: consolidate*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -161,6 +185,8 @@ p {
     color: #ffffff;
 }
 
+/* All img are the same, can be consolidated
+    TO DO: consolidate */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +199,8 @@ p {
     max-height: 200px;
 }
 
+/* multiple h2 tags, can be consolidated
+    TO DO: consolidate */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +216,7 @@ p {
     font-size: 36px;
 }
 
+/* Looks good */
 .footer {
     padding: 30px;
     clear: both;
